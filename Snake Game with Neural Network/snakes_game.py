@@ -53,12 +53,12 @@ def welcome() :
             
             if event.type == pygame.KEYDOWN:
                 if event.key == pygame.K_SPACE:
-                    gameLoop()
+                    playGame()
         pygame.display.update()
         clock.tick(60)
 
 
-def gameLoop():
+def playGame():
     # game variable
     exitGame = False
     gameOver = False
